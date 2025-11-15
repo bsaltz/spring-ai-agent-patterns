@@ -1,0 +1,26 @@
+site_name: Spring AI Agent Patterns
+theme:
+  name: readthedocs
+plugins:
+  - search
+  - mermaid2
+markdown_extensions:
+  - pymdownx.superfences
+
+nav:
+- Home: index.md
+- Getting Started:
+  - Installation & Setup: development/getting-started.md
+  - Configuration Guide: development/configuration.md
+- Architecture:
+  - Overview: architecture.md
+  - Testing Strategy: architecture/testing.md
+- Examples:
+  - Overview: examples/index.md
+  - House PTR Parser: examples/house-ptr-parser/index.md
+  - Research Report Writer:
+    - Overview: examples/research-report-writer/index.md
+    - Sample Output: examples/research-report-writer/sample.md
+  - Competitive Intelligence:
+    - Overview: examples/competitive-intelligence/index.md
+    - Sample Output: examples/competitive-intelligence/sample.md

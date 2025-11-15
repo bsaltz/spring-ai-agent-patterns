@@ -1,0 +1,58 @@
+spring:
+  application:
+    name: spring-ai-agent-patterns
+  profiles:
+    active: local
+  shell:
+    interactive:
+      enabled: true
+  main:
+    banner-mode: off
+    web-application-type: none
+  ai:
+    ollama:
+      # Remember you can override these in application-local.yml
+      chat:
+        model: gpt-oss:20b
+        options:
+          # 64k for the ResearchReportWriter
+          num-ctx: 65536
+          # 16 threads to speed up inference; you should set this to your number of physical cores
+          num-thread: 16
+    tools:
+      observations:
+        include-content: false
+    chat:
+      observations:
+        include-error-logging: true
+        log-completion: false
+        log-prompt: false
+    mcp:
+      client:
+        enabled: true
+        stdio:
+          connections:
+            brave-search:
+              command: npx
+              args:
+                - -y
+                - '@brave/brave-search-mcp-server'
+              env:
+                BRAVE_API_KEY: "${com.brave.search.apiKey}"
+            wikipedia:
+              command: uvx
+              args:
+                - --from
+                - wikipedia-mcp
+                - wikipedia-mcp
+
+logging:
+  level:
+    root: ERROR
+    sun: ERROR
+    javax: ERROR
+    java: ERROR
+    org.jline: ERROR
+    com.github.bsaltz.springai.examples: INFO
+  threshold:
+    console: DEBUG
