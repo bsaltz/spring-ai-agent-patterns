@@ -1,8 +1,7 @@
 # Spring AI Agent Patterns
 
-Production-grade patterns for building autonomous AI agents with Spring AI and LangGraph4j. This project demonstrates
-enterprise-ready agentic workflows that integrate LLMs with external tools, structured state management, and robust
-error handling.
+Patterns and examples for building autonomous AI agents with Spring AI and LangGraph4j. This project demonstrates
+agentic workflows that integrate LLMs with external tools, structured state management, and error handling.
 
 ## Overview
 
@@ -96,7 +95,7 @@ Each example includes:
 
 ## Project Philosophy
 
-This project demonstrates production-ready patterns through:
+This project demonstrates practical patterns through:
 
 - **Real Debugging**: Documentation includes actual challenges faced and solutions discovered
 - **Quantitative Results**: Performance metrics and accuracy measurements throughout

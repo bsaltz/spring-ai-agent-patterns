@@ -1,8 +1,7 @@
 # House PTR Parser
 
 A linear workflow that extracts structured data from PDF documents containing House periodic transaction reports (PTR).
-This example demonstrates production-ready patterns for document processing, OCR integration, and iterative refinement
-with LLMs.
+This example demonstrates patterns for document processing, OCR integration, and iterative refinement with LLMs.
 
 ## Overview
 
@@ -747,7 +746,7 @@ validation.
 
 ## Summary: Key Takeaways
 
-This example demonstrates production-grade patterns for document processing with LLMs. The key achievements:
+This example demonstrates patterns for document processing with LLMs. The key achievements:
 
 **Technical Accomplishments:**
 

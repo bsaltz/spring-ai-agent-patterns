@@ -1,7 +1,7 @@
 # Research Report Writer
 
 An autonomous agentic workflow that generates comprehensive, well-sourced research reports on any topic by orchestrating
-web search tools and LLM reasoning. This example demonstrates production-grade patterns for building reliable AI agents
+web search tools and LLM reasoning. This example demonstrates patterns for building reliable AI agents
 that integrate external tools.
 
 ## Overview
@@ -284,7 +284,7 @@ The synthesis node acts as an editor, combining all section research into a cohe
 - Generates an executive summary contextualizing the findings
 - Ensures a consistent structure and professional tone
 - Preserves all inline citations from the research phase
-- Formats the output as production-ready Markdown
+- Formats the output as Markdown
 
 Unlike the research node, this doesn't use tools — it's pure LLM synthesis work, transforming raw research into polished
 documentation.
@@ -750,7 +750,7 @@ achieve reliable tool calling. The prompt engineering compensates for model limi
 
 ## Summary: Key Takeaways
 
-This example demonstrates production-grade patterns for building autonomous AI agents that integrate external tools. The
+This example demonstrates patterns for building autonomous AI agents that integrate external tools. The
 key achievements:
 
 **Technical Accomplishments:**

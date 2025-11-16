@@ -1,8 +1,7 @@
 # Example Overview
 
-This directory contains production-grade examples demonstrating agentic workflow patterns using Spring AI and
-LangGraph4j. Each example is fully functional, well-documented, and includes detailed architectural decisions and
-debugging insights.
+This directory contains examples demonstrating agentic workflow patterns using Spring AI and LangGraph4j. Each example
+is fully functional, well-documented, and includes detailed architectural decisions and debugging insights.
 
 The examples are ordered by complexity, designed to build on each other's concepts.
 

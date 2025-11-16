@@ -1,6 +1,6 @@
 # Spring AI Agent Patterns
 
-Production-grade patterns for building autonomous AI agents with Spring AI and LangGraph4j. This project demonstrates enterprise-ready agentic workflows that integrate LLMs with external tools, structured state management, and robust error handling.
+Patterns and examples for building autonomous AI agents with Spring AI and LangGraph4j. This project demonstrates agentic workflows that integrate LLMs with external tools, structured state management, and error handling.
 
 ## Overview
 
@@ -76,6 +76,7 @@ Extracts structured data from PDF documents containing House stock transaction r
 - Custom data validation
 
 **Complexity:** Beginner
+
 **Documentation:** [docs/examples/house-ptr-parser/](docs/examples/house-ptr-parser/index.md)
 
 ### 2. Research Report Writer
@@ -90,6 +91,7 @@ Autonomously generates comprehensive research reports using web search.
 - Production error handling patterns
 
 **Complexity:** Intermediate
+
 **Documentation:** [docs/examples/research-report-writer/](docs/examples/research-report-writer/index.md)
 
 **Key Achievement:** Reliable tool calling with local 20B models through careful prompt engineering and token configuration.
@@ -106,6 +108,7 @@ Autonomously researches companies through a multi-agent system with specialized 
 - Conditional agent selection with intelligent routing
 
 **Complexity:** Advanced
+
 **Documentation:** [docs/examples/competitive-intelligence/](docs/examples/competitive-intelligence/index.md)
 
 **Key Achievement:** Autonomous multi-agent system that adapts research strategy based on discovered information.
@@ -128,7 +131,7 @@ Autonomously researches companies through a multi-agent system with specialized 
 
 ## Highlights
 
-### Production-Ready Patterns
+### Key Patterns
 
 - **Graceful Degradation**: Workflows continue with partial results rather than failing
 - **Type-Safe State**: Minimal schema with type-safe accessors
@@ -139,6 +142,7 @@ Autonomously researches companies through a multi-agent system with specialized 
 ### Debugging Insights
 
 The documentation includes detailed "Lessons Learned" sections documenting:
+
 - MCP tool parameter validation failures and solutions
 - `null` vs `undefined` in Node.js-based MCP servers
 - Token truncation causing malformed JSON

@@ -5,7 +5,7 @@ project.
 
 ## Design Philosophy
 
-This project demonstrates **production-ready agentic workflows** through three core principles:
+This project demonstrates **agentic workflow patterns** through three core principles:
 
 1. **Transparency Over Magic**: Every design decision is documented with rationale. Debugging insights show real
    problems and solutions.
