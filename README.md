@@ -223,3 +223,5 @@ Brian Saltz Jr.
 - Built with [Spring AI](https://docs.spring.io/spring-ai/reference/)
 - LangGraph4j by [bsorrentino](https://github.com/langgraph4j/langgraph4j)
 - MCP protocol by [Anthropic](https://modelcontextprotocol.io/)
+- Ollama by [Ollama](https://ollama.com/)
+- Code generation assistance from [Claude Code](https://claude.com/product/claude-code)
